@@ -8,9 +8,9 @@ class Program
     {
         Console.Write("What is your first name : ");
         string name = Console.ReadLine();
-        Console.Write("What is your first name : ");
+        Console.Write("What is your Last name : ");
         string LastName = Console.ReadLine();
-        Console.WriteLine($"Your name is= {LastName} {name}");
+        Console.WriteLine($"Your name is : {LastName} {name}");
       
         Console.Write("What is your grade percentage : ");
         string grade = Console.ReadLine();
