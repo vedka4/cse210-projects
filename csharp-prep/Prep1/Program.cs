@@ -1,11 +1,17 @@
 using System;
+using System.Runtime.InteropServices;
 
 class Program
 {
     static void Main(string[] args)
 
     {
-        
+        Console.Write("What is your first name : ");
+        string name = Console.ReadLine();
+        Console.Write("What is your first name : ");
+        string LastName = Console.ReadLine();
+        Console.WriteLine($"Your name is= {LastName} {name}");
+      
         Console.Write("What is your grade percentage : ");
         string grade = Console.ReadLine();
         int number = int.Parse(grade);
