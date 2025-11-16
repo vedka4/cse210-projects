@@ -21,7 +21,6 @@ class Program
             Console.Write("Please Enter Number : ");
             numbers = Console.ReadLine();
             numbersUser = int.Parse(numbers);
-            if (numbersUser > )
         }
         Console.WriteLine("The sum is :" + " " + total);
         aveg = (total / attempts);

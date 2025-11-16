@@ -11,7 +11,7 @@ class Program
         Console.Write("What is your Last name : ");
         string LastName = Console.ReadLine();
         Console.WriteLine($"Your name is : {LastName} {name}");
-      
+
         Console.Write("What is your grade percentage : ");
         string grade = Console.ReadLine();
         int number = int.Parse(grade);
@@ -32,7 +32,7 @@ class Program
         {
             letter = "C+";
         }
-         else if (number >= 70)
+        else if (number >= 70)
         {
             letter = "C";
         }
@@ -56,9 +56,12 @@ class Program
             Console.WriteLine("Keep working hard, you will do it");
         }
 
-           
+
 
     }
+    
+
+    
 }
 
 
